@@ -1,0 +1,10 @@
+addroot	tree.c	/^addroot(string,type,n1,n2)$/
+checkneg	tree.c	/^checkneg(tree,neg)		\/* eliminate nots if possible/
+freenode	tree.c	/^freenode(treenode)$/
+freetree	tree.c	/^freetree(tree)$/
+prec	tree.c	/^prec(oper)$/
+puttree	tree.c	/^puttree(tree)$/
+slength	tree.c	/^slength(s)			\/* return number of chars in s, not /
+str_copy	tree.c	/^str_copy(s,ptr,length)	\/* copy s at ptr, return l/
+str_eq	tree.c	/^str_eq(s,t)$/
+yield	tree.c	/^yield(tree,fprec)$/

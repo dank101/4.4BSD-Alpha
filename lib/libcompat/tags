@@ -1,0 +1,45 @@
+_strout	4.3/strout.c	/^_strout(count, string, adjust, file, fillch)$/
+advance	4.3/regex.c	/^advance(lp, ep)$/
+backref	4.3/regex.c	/^backref(i, lp)$/
+blkencrypt	4.3/ruserpass.c	/^blkencrypt(block, edflag)$/
+cclass	4.3/regex.c	/^cclass(set, c, af)$/
+comerr	4.3/regex.c	/^#define	comerr(msg) {expbuf[0] = 0; numbra = 0; re/
+cvt	4.3/ecvt.c	/^cvt(arg, ndigits, decpt, sign, eflag)$/
+deblkclr	4.3/ruserpass.c	/^char *deblkclr(blk)$/
+deblknot	4.3/ruserpass.c	/^char *deblknot(blk)$/
+ecvt	4.3/ecvt.c	/^ecvt(arg, ndigits, decpt, sign)$/
+enblkclr	4.3/ruserpass.c	/^enblkclr(blk,str)		\/* ignores top bit of chars in/
+enblknot	4.3/ruserpass.c	/^enblknot(blk,crp)$/
+fcvt	4.3/ecvt.c	/^fcvt(arg, ndigits, decpt, sign)$/
+ftime	4.1/ftime.c	/^ftime(tp)$/
+gcvt	4.3/gcvt.c	/^gcvt(number, ndigit, buf)$/
+getpw	4.1/getpw.c	/^getpw(uid, buf)$/
+getutmp	4.3/ruserpass.c	/^struct utmp *getutmp(sttyname)$/
+getvtimes	4.1/vtimes.c	/^getvtimes(aru, avt)$/
+gtty	4.1/gtty.c	/^gtty(fd, ap)$/
+isspecial	4.3/ecvt.c	/^isspecial(f, bp)$/
+lfind	4.3/lsearch.c	/^lfind(key, base, nelp, width, compar)$/
+linear_base	4.3/lsearch.c	/^linear_base(key, base, nelp, width, compar, add_fl/
+lsearch	4.3/lsearch.c	/^lsearch(key, base, nelp, width, compar)$/
+mkenvkey	4.3/ruserpass.c	/^char *mkenvkey(mch)$/
+mkpwclear	4.3/ruserpass.c	/^mkpwclear(sencpasswd,mch,spasswd)$/
+mkpwunclear	4.3/ruserpass.c	/^mkpwunclear(spasswd,mch,sencpasswd)$/
+nbs8decrypt	4.3/ruserpass.c	/^char *nbs8decrypt(crp,key)$/
+nbs8encrypt	4.3/ruserpass.c	/^char *nbs8encrypt(str,key)$/
+nbsdecrypt	4.3/ruserpass.c	/^char *nbsdecrypt(cpt,key,result)$/
+nbsencrypt	4.3/ruserpass.c	/^char *nbsencrypt(str,key,result)$/
+nbssetkey	4.3/ruserpass.c	/^nbssetkey(key)$/
+re_comp	4.3/regex.c	/^re_comp(sp)$/
+re_exec	4.3/regex.c	/^re_exec(p1)$/
+renv	4.3/ruserpass.c	/^renv(host, aname, apass)$/
+renvlook	4.3/ruserpass.c	/^renvlook(host)$/
+rexec	4.3/rexec.c	/^rexec(ahost, rport, name, pass, cmd, fd2p)$/
+rnetrc	4.3/ruserpass.c	/^rnetrc(host, aname, apass)$/
+ruserpass	4.3/ruserpass.c	/^ruserpass(host, aname, apass)$/
+scale60	4.1/vtimes.c	/^scale60(tvp)$/
+sreverse	4.3/ruserpass.c	/^sreverse(sto, sfrom)$/
+stty	4.1/stty.c	/^stty(fd, ap)$/
+tell	4.1/tell.c	/^long tell(f)$/
+token	4.3/ruserpass.c	/^token()$/
+vlimit	4.1/vlimit.c	/^vlimit(limit, value)$/
+vtimes	4.1/vtimes.c	/^vtimes(par, chi)$/

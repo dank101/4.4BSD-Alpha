@@ -1,0 +1,25 @@
+additem	ndbm.c	/^additem(buf, item, item1)$/
+chkblk	ndbm.c	/^chkblk(buf)$/
+dbm_access	ndbm.c	/^dbm_access(db, hash)$/
+dbm_close	ndbm.c	/^dbm_close(db)$/
+dbm_delete	ndbm.c	/^dbm_delete(db, key)$/
+dbm_fetch	ndbm.c	/^dbm_fetch(db, key)$/
+dbm_firstkey	ndbm.c	/^dbm_firstkey(db)$/
+dbm_forder	ndbm.c	/^dbm_forder(db, key)$/
+dbm_nextkey	ndbm.c	/^dbm_nextkey(db)$/
+dbm_open	ndbm.c	/^dbm_open(file, flags, mode)$/
+dbm_store	ndbm.c	/^dbm_store(db, key, dat, replace)$/
+dbminit	dbm.c	/^dbminit(file)$/
+dcalchash	ndbm.c	/^dcalchash(item)$/
+delete	dbm.c	/^delete(key)$/
+delitem	ndbm.c	/^delitem(buf, n)$/
+fetch	dbm.c	/^fetch(key)$/
+finddatum	ndbm.c	/^finddatum(buf, item)$/
+firstkey	dbm.c	/^firstkey()$/
+forder	dbm.c	/^forder(key)$/
+getbit	ndbm.c	/^getbit(db)$/
+hashinc	ndbm.c	/^hashinc(db, hash)$/
+makdatum	ndbm.c	/^makdatum(buf, n)$/
+nextkey	dbm.c	/^nextkey(key)$/
+setbit	ndbm.c	/^setbit(db)$/
+store	dbm.c	/^store(key, dat)$/

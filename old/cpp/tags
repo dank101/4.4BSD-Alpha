@@ -1,0 +1,38 @@
+Mcpp	cpp.c	/^main(argc,argv)$/
+bob	cpp.c	/^#define bob(a) (pbeg>=(a))$/
+control	cpp.c	/^control(p) register char *p; {\/* find and handle /
+copy	cpp.c	/^copy(s) register char *s; {$/
+cotoken	cpp.c	/^cotoken(p) register char *p; {$/
+dodef	cpp.c	/^dodef(p) char *p; {\/* process '#define' *\/$/
+doincl	cpp.c	/^doincl(p) register char *p; {$/
+dump	cpp.c	/^dump() {$/
+eob	cpp.c	/^#define eob(a) ((a)>=pend)$/
+equfrm	cpp.c	/^equfrm(a,p1,p2) register char *a,*p1,*p2; {$/
+fasscan	cpp.c	/^#define fasscan() ptrtab=fastab+COFF$/
+iscom	cpp.c	/^#define iscom(a) ((fastab+COFF)[a]&CB)$/
+isid	cpp.c	/^#define isid(a)  ((fastab+COFF)[a]&IB)$/
+isnum	cpp.c	/^#define isnum(a) ((fastab+COFF)[a]&NB)$/
+isquo	cpp.c	/^#define isquo(a) ((fastab+COFF)[a]&QB)$/
+isspc	cpp.c	/^#define isspc(a) (ptrtab[a]&SB)$/
+iswarn	cpp.c	/^#define iswarn(a) ((fastab+COFF)[a]&WB)$/
+lookup	cpp.c	/^lookup(namep, enterf)$/
+pperror	cpp.c	/^pperror(s,x,y) char *s; {$/
+ppsym	cpp.c	/^ppsym(s) char *s; {\/* kluge *\/$/
+ppwarn	cpp.c	/^ppwarn(s,x) char *s; {$/
+refill	cpp.c	/^refill(p) register char *p; {$/
+savestring	cpp.c	/^savestring(start, finish)$/
+sayline	cpp.c	/^sayline(where)$/
+skipbl	cpp.c	/^skipbl(p) register char *p; {\/* get next non-blan/
+slookup	cpp.c	/^slookup(p1,p2,enterf) register char *p1,*p2; int e/
+sloscan	cpp.c	/^#define sloscan() ptrtab=slotab+COFF$/
+strdex	cpp.c	/^strdex(s,c) char *s,c; {$/
+stsym	cpp.c	/^stsym(s) register char *s; {$/
+subst	cpp.c	/^subst(p,sp) register char *p; struct symtab *sp; {/
+tmac1	cpp.c	/^#define tmac1(c,bit) if (!xmac1(c,bit,&)) goto nom/
+tmac2	cpp.c	/^#define tmac2(c0,c1,cpos) if (!xmac2(c0,c1,cpos,&)/
+trmdir	cpp.c	/^trmdir(s) register char *s; {$/
+unfill	cpp.c	/^unfill(p) register char *p; {$/
+xmac1	cpp.c	/^#define xmac1(c,bit,op) ((macbit+COFF)[c] op (bit)/
+xmac2	cpp.c	/^#define xmac2(c0,c1,cpos,op)\\$/
+yyerror	cpp.c	/^yyerror(s,a,b) char *s; {$/
+yywrap	cpp.c	/^yywrap(){ return(1); }$/

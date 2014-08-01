@@ -1,0 +1,28 @@
+Mgroff.cc	groff.cc	/^int main(int argc, char **argv)$/
+WCOREDUMPED	groff.cc	/^#define WCOREDUMPED(s) (WTOI(s) & 0200)$/
+WEXITSTATUS	groff.cc	/^#define WEXITSTATUS(s) ((WTOI(s) >> 8) & 0377)$/
+WIFEXITED	groff.cc	/^#define WIFEXITED(s) ((WTOI(s) & 0377) == 0)$/
+WIFSIGNALED	groff.cc	/^#define WIFSIGNALED(s) ((WTOI(s) & 0377) != 0 && (/
+WIFSTOPPED	groff.cc	/^#define WIFSTOPPED(s) ((WTOI(s) & 0377) == 0177)$/
+WSTOPSIG	groff.cc	/^#define WSTOPSIG(s) ((WTOI(s) >> 8) & 0377)$/
+WTERMSIG	groff.cc	/^#define WTERMSIG(s) (WTOI(s) & 0177)$/
+WTOI	groff.cc	/^#define WTOI(s) (*(int *)&(s))$/
+append_arg	groff.cc	/^void possible_command::append_arg(const char *s, c/
+append_arg_to_string	groff.cc	/^void append_arg_to_string(const char *arg, string /
+argv	groff.cc	/^: pid(-1), name(0), argv(0)$/
+build_argv	groff.cc	/^void possible_command::build_argv()$/
+clear_args	groff.cc	/^void possible_command::clear_args()$/
+devices	groff.cc	/^void devices()$/
+execp	groff.cc	/^void possible_command::execp()$/
+get_name	groff.cc	/^const char *possible_command::get_name()$/
+help	groff.cc	/^void help()$/
+possible_command	groff.cc	/^possible_command::~possible_command()$/
+prepend_arg	groff.cc	/^void possible_command::prepend_arg(const char *s, /
+print	groff.cc	/^void possible_command::print(int is_last, FILE *fp/
+print_commands	groff.cc	/^void print_commands()$/
+run_commands	groff.cc	/^int run_commands()$/
+set_name	groff.cc	/^void possible_command::set_name(const char *s)$/
+strsignal	groff.cc	/^const char *strsignal(int n)$/
+synopsis	groff.cc	/^void synopsis()$/
+sys_fatal	groff.cc	/^void sys_fatal(const char *s)$/
+usage	groff.cc	/^void usage()$/

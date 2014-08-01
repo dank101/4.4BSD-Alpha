@@ -1,0 +1,14 @@
+./"flags"nX
++/"client"n
+.$<<client
++/"retrys"16t"sock"nDX
++/"addr"n
+.$<<sockaddr_in
++/"err"n
+.$<<rpcerr
++/"outxdr"n
+.$<<xdr
++/"inxdr"n
+.$<<xdr
++/"outpos"16t"outbuf"16t"inbuf"16t"inmbuf"nXXXX
++/"cred"nX

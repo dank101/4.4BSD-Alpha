@@ -1,0 +1,26 @@
+.$<<pcb
++/"procp"16t"ar0"16t"comm"n2X16C2+
++/"arg0"16t"arg1"16t"arg2"n3X20+n
++/"uap"16t"qsave"16t" "n3X52+
++/"rv1"16t"rv2"16t"error"8t"eosys"n2Xbb
++/"cred"nX
+.>3
+<0/"ref"8t"uid"8t"ruid"8t"gid"8t"rgid"n2d22+d24-d22+d24-n
++/"groups"n5dn5d
+<3+4/"tsize"16t"dsize"16t"ssize"n3X640+60+
++/"odsize"16t"ossize"16t"outime"16t"mmap"n4X
++/"signal"n32X"sigmask"n32X
++/"onstack"16t"sigintr"16t"oldmask"n3X
++/"code"16t"sigstack"16t"onsigstack"n3X
++/"ofile"n64Xn"pofile"n64b
++/"lastfile"nDn
++/"cdir"16t"rdir"16t"ttyp"16t"ttyd"8t"cmask"n3Xxon"ru"n
++$<<rusage
++/"cru"n
++$<<rusage
++/"itimers"n12D
++/"XXX"n3X
++/"start"16t" "8t"acflag"nY4+x
++/"pr_base"16t"pr_size"16t"pr_off"16t"scale"nXDXD
++/"limits"n12X
++/"quota"16t"qflags"n2X

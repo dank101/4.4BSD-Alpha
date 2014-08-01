@@ -1,0 +1,12 @@
+getnoun	pscan.c	/^getnoun(k,ce)$/
+getv	pscan.c	/^getv(si,ce)$/
+getv2	pscan.c	/^getv2(ce)$/
+isadj	pscan.c	/^#define isadj(c)	(c == ADJ || c == NOUN_ADJ || c =/
+isadv	pscan.c	/^#define isadv(c)	(c == ADV || c == ADJ_ADV)$/
+isnoun	pscan.c	/^#define isnoun(c)	(c == NOUN || c == NOUN_VERB || /
+issing	pscan.c	/^#define issing(c)	(c == UNK || c == NOUN_VERB || c/
+notnoun	pscan.c	/^#define notnoun(c)	(c != NOUN && c != UNK && c != /
+nounnom	pscan.c	/^#define nounnom(c)	(c == NOUN || c == NOM)$/
+outp	outp.c	/^outp(){$/
+scan	pscan.c	/^scan(si,ce,command)	\/*scan a phrase *\/$/
+who	pscan.c	/^who(kk,ce)$/

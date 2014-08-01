@@ -1,0 +1,5 @@
+{ temp = $0; sub(/foo/, "bar", temp)
+  if (temp !~ /^shit$/) print " sub 1 fails:", temp, "should be shit"
+  gsub(/foo/, "bar")
+  if ($0 !~ /^glop$/) print "gsub 1 fails:", $0, "should be glop"
+}

@@ -1,0 +1,7 @@
+ON_EXIT	gnulib3.c	/^#define ON_EXIT(PROCP, ARG) \\$/
+__do_global_cleanup	gnulib3.c	/^__do_global_cleanup ()$/
+__do_global_init	gnulib3.c	/^__do_global_init ()$/
+__main	gnulib3.c	/^__main ()$/
+__raise_exception	EH2.c	/^__raise_exception (void **addr, void *id)$/
+__unhandled_exception	EH2.c	/^__unhandled_exception (char *filename, int lineno)/
+exit	gnulib3.c	/^exit (status)$/

@@ -1,0 +1,1 @@
+#define NPORTAL 0

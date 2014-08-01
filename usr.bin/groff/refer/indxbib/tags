@@ -1,0 +1,16 @@
+Mindxbib.cc	indxbib.cc	/^int main(int argc, char **argv)$/
+check_integer_arg	indxbib.cc	/^static void check_integer_arg(char opt, const char/
+do_file	indxbib.cc	/^static int do_file(const char *filename)$/
+do_whole_file	indxbib.cc	/^static int do_whole_file(const char *filename)$/
+fatal_error_exit	indxbib.cc	/^void fatal_error_exit()$/
+fwrite_or_die	indxbib.cc	/^static void fwrite_or_die(const void *ptr, int siz/
+hash	../common_source/common.cc	/^unsigned hash(const char *s, int len)$/
+init_hash_table	indxbib.cc	/^static void init_hash_table()$/
+len	indxbib.cc	/^: next(p), len(n)$/
+possibly_store_key	indxbib.cc	/^static void possibly_store_key(char *s, int len)$/
+read_common_words_file	indxbib.cc	/^static void read_common_words_file()$/
+store_filename	indxbib.cc	/^static void store_filename(const char *fn)$/
+store_key	indxbib.cc	/^static int store_key(char *s, int len)$/
+store_reference	indxbib.cc	/^static void store_reference(int filename_index, in/
+usage	indxbib.cc	/^static void usage()$/
+write_hash_table	indxbib.cc	/^static void write_hash_table()$/

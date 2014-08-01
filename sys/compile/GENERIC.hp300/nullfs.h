@@ -1,0 +1,1 @@
+#define NNULLFS 0

@@ -1,0 +1,15 @@
+glop	10
+/glop	10
+\glop	0
+%glop	/10%
+%%glop	\10%
+it	20
+/it	20
+\it	0
+%it	/20%
+%%it	\20%
+main	70
+/main	70
+\main	0
+%main	/70%
+%%main	\70%

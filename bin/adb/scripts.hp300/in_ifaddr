@@ -1,0 +1,3 @@
+.$<<ifaddr
++/n"net"16t"netmask"16t"subnet"16t"subnetmask"n4Xn
++/"netbroadcast"16t"flags"16t"ia_next"n3Xn

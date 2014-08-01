@@ -1,0 +1,1 @@
+mbstat/"bufs"16t"clusts"16t"spare"16t"clfree"nDDDDn"drops"16t"wait"16t"drain"nDDDnn"free"8t"data"8t"header"8t"socket"8t"pcb"ndddddnn"routtab"8t"imptab"8t"arptab"8t"soname"8t"zombie"ndddddnn"soopts"8t"fragtab"8t"rights"8t"ifaddr"nddddnn

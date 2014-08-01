@@ -1,0 +1,13 @@
+ADVANCE	rwhod.c	/^#define ADVANCE(x, n) (x += ROUNDUP((n)->sa_len))$/
+IPADDR_SA	rwhod.c	/^#define IPADDR_SA(x) ((struct sockaddr_in *)(x))->/
+Mrwhod	rwhod.c	/^main()$/
+PORT_SA	rwhod.c	/^#define PORT_SA(x) ((struct sockaddr_in *)(x))->si/
+ROUNDUP	rwhod.c	/^#define ROUNDUP(a) \\$/
+configure	rwhod.c	/^configure(s)$/
+getkmem	rwhod.c	/^getkmem()$/
+interval	rwhod.c	/^interval(time, updown)$/
+onalrm	rwhod.c	/^onalrm()$/
+quit	rwhod.c	/^quit(msg)$/
+rt_xaddrs	rwhod.c	/^rt_xaddrs(cp, cplim, rtinfo)$/
+sendto	rwhod.c	/^sendto(s, buf, cc, flags, to, tolen)$/
+verify	rwhod.c	/^verify(name)$/

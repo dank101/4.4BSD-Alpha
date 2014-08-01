@@ -1,0 +1,42 @@
+X	bt_debug.c	/^#define	X(flag, name) \\$/
+__bt_close	bt_close.c	/^__bt_close(dbp)$/
+__bt_cmp	bt_utils.c	/^__bt_cmp(t, k1, e)$/
+__bt_crsrdel	bt_seq.c	/^__bt_crsrdel(t, c)$/
+__bt_defcmp	bt_utils.c	/^__bt_defcmp(a, b)$/
+__bt_defpfx	bt_utils.c	/^__bt_defpfx(a, b)$/
+__bt_delete	bt_delete.c	/^__bt_delete(dbp, key, flags)$/
+__bt_dleaf	bt_delete.c	/^__bt_dleaf(t, h, index)$/
+__bt_dmpage	bt_debug.c	/^__bt_dmpage(h)$/
+__bt_dpage	bt_debug.c	/^__bt_dpage(h)$/
+__bt_dump	bt_debug.c	/^__bt_dump(dbp)$/
+__bt_first	bt_get.c	/^__bt_first(t, key, exactp)$/
+__bt_get	bt_get.c	/^__bt_get(dbp, key, data, flags)$/
+__bt_open	bt_open.c	/^__bt_open(fname, flags, mode, openinfo)$/
+__bt_pgin	bt_conv.c	/^__bt_pgin(t, pg, p)$/
+__bt_pgout	bt_conv.c	/^__bt_pgout(t, pg, p)$/
+__bt_push	bt_stack.c	/^__bt_push(t, pgno, index)$/
+__bt_put	bt_put.c	/^__bt_put(dbp, key, data, flags)$/
+__bt_ret	bt_utils.c	/^__bt_ret(t, e, key, data)$/
+__bt_search	bt_search.c	/^__bt_search(t, key, exactp)$/
+__bt_seq	bt_seq.c	/^__bt_seq(dbp, key, data, flags)$/
+__bt_split	bt_split.c	/^__bt_split(t, h, key, data, flags, nbytes, skip)$/
+__bt_stat	bt_debug.c	/^__bt_stat(dbp)$/
+__bt_sync	bt_close.c	/^__bt_sync(dbp)$/
+__ovfl_delete	bt_overflow.c	/^__ovfl_delete(t, p)$/
+__ovfl_get	bt_overflow.c	/^__ovfl_get(t, p, ssz, buf, bufsz)$/
+__ovfl_put	bt_overflow.c	/^__ovfl_put(t, dbt, pg)$/
+bt_bdelete	bt_delete.c	/^bt_bdelete(t, key)$/
+bt_broot	bt_split.c	/^bt_broot(t, h, l, r)$/
+bt_fast	bt_put.c	/^bt_fast(t, key, data, exactp)$/
+bt_meta	bt_close.c	/^bt_meta(t)$/
+bt_page	bt_split.c	/^bt_page(t, h, lp, rp, skip)$/
+bt_preserve	bt_split.c	/^bt_preserve(t, pg)$/
+bt_psplit	bt_split.c	/^bt_psplit(t, h, l, r, pskip)$/
+bt_root	bt_split.c	/^bt_root(t, h, lp, rp, skip)$/
+bt_rroot	bt_split.c	/^bt_rroot(t, h, l, r)$/
+bt_seqadv	bt_seq.c	/^bt_seqadv(t, e, flags)$/
+bt_seqset	bt_seq.c	/^bt_seqset(t, ep, key, flags)$/
+kdswap	bt_conv.c	/^kdswap(h)$/
+nroot	bt_open.c	/^nroot(t)$/
+rec_total	bt_split.c	/^rec_total(h)$/
+tmp	bt_open.c	/^tmp()$/

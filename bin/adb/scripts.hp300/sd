@@ -1,0 +1,10 @@
+./"hd"nX
++/"dq"n
+.$<<devqueue
++/"formatpid"16t"flags"8t"type"8t"punit"8t"bshift"nDxddd
++/"blks"16t"blksize"16t"wpms"16t"blkno"n4D
++/"addr"16t"count"16t"resid"nXDD
++/"cblkno"16t"cbuf"nDX
++/"sdinfo"n"strtblk"16t"endblk"16t"nblocks"n
+.,8/DDDn
++,<9-1$<sd

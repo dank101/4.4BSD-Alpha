@@ -1,0 +1,49 @@
+Mlookbib.cc	lookbib.cc	/^main(int argc, char **argv)$/
+add_file	../common_source/search.cc	/^void search_list::add_file(const char *filename, i/
+add_out_of_date_file	../common_source/index.cc	/^void index_search_item::add_out_of_date_file(int f/
+bmpattern	../common_source/linear.cc	/^bmpattern::~bmpattern()$/
+bufend	../common_source/linear.cc	/^: buffer(0), bufend(0)$/
+buffer	../common_source/index.cc	/^  buffer(0)$/
+check_files	../common_source/index.cc	/^void index_search_item::check_files()$/
+check_match	../common_source/linear.cc	/^int linear_searcher::check_match(const char *buf, /
+do_verify	../common_source/index.cc	/^const char *index_search_item::do_verify()$/
+file_buffer	../common_source/linear.cc	/^file_buffer::~file_buffer()$/
+filename_id	../common_source/search.cc	/^: next(0), name(strsave(nm)), filename_id(fid)$/
+find_end	../common_source/linear.cc	/^static const char *find_end(const char *bufend, co/
+get_end	../common_source/linear.cc	/^const char *file_buffer::get_end() const$/
+get_start	../common_source/linear.cc	/^const char *file_buffer::get_start() const$/
+get_tag	../common_source/index.cc	/^int index_search_item_iterator::get_tag(int tagno,/
+hash	../common_source/common.cc	/^unsigned hash(const char *s, int len)$/
+ignore_fields	../common_source/linear.cc	/^: keys(0), nkeys(0), truncate_len(trunc), ignore_f/
+index_search_item	../common_source/index.cc	/^index_search_item::~index_search_item()$/
+index_search_item_iterator	../common_source/index.cc	/^index_search_item_iterator::~index_search_item_ite/
+is_named	../common_source/search.cc	/^int search_item::is_named(const char *nm) const$/
+len	../common_source/linear.cc	/^: len(pattern_length)$/
+length	../common_source/linear.cc	/^inline int bmpattern::length() const$/
+linear_search_item	../common_source/linear.cc	/^linear_search_item::~linear_search_item()$/
+linear_search_item_iterator	../common_source/linear.cc	/^linear_search_item_iterator::~linear_search_item_i/
+linear_searcher	../common_source/linear.cc	/^linear_searcher::~linear_searcher()$/
+load	../common_source/linear.cc	/^int file_buffer::load(int fd, const char *filename/
+make_index_search_item	../common_source/index.cc	/^search_item *make_index_search_item(const char *fi/
+make_linear_search_item	../common_source/linear.cc	/^search_item *make_linear_search_item(int fd, const/
+make_search_item_iterator	../common_source/linear.cc	/^search_item_iterator *linear_search_item::make_sea/
+map_init	../common_source/linear.cc	/^map_init::map_init()$/
+merge	../common_source/index.cc	/^static void merge(int *result, const int *s1, cons/
+munge_filename	../common_source/index.cc	/^const char *index_search_item::munge_filename(cons/
+next	../common_source/search.cc	/^int search_list_iterator::next(const char **pp, in/
+next_fid	../common_source/search.cc	/^: list(0), niterators(0), next_fid(1)$/
+next_filename_id	../common_source/search.cc	/^int search_item::next_filename_id() const$/
+next_out_of_date_file	../common_source/index.cc	/^  out_of_date_files_iter(0), next_out_of_date_file/
+nfiles	../common_source/search.cc	/^int search_list::nfiles() const$/
+pos	../common_source/linear.cc	/^: lsi(p), pos(0)$/
+read_common_words_file	../common_source/index.cc	/^void index_search_item::read_common_words_file()$/
+search	../common_source/linear.cc	/^const char *bmpattern::search(const char *buf, con/
+search1	../common_source/index.cc	/^const int *index_search_item::search1(const char */
+search_and_check	../common_source/linear.cc	/^const char *linear_searcher::search_and_check(cons/
+search_item	../common_source/search.cc	/^search_item::~search_item()$/
+search_item_iterator	../common_source/search.cc	/^search_item_iterator::~search_item_iterator()$/
+search_list	../common_source/search.cc	/^search_list::~search_list()$/
+search_list_iterator	../common_source/search.cc	/^search_list_iterator::~search_list_iterator()$/
+skip_field	../common_source/linear.cc	/^static const char *skip_field(const char *end, con/
+usage	lookbib.cc	/^static void usage()$/
+verify	../common_source/index.cc	/^int index_search_item::verify()$/

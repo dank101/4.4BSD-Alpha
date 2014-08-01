@@ -1,0 +1,84 @@
+.\" -*- nroff -*-
+.ds g \" empty
+.ds G \" empty
+.TH \*GLKBIB 1 "05:58  lkbib.man" "Groff Version 1.03"
+.SH NAME
+\*glkbib \- search bibliographic databases
+.SH SYNOPSIS
+.B \*glkbib
+[
+.B \-v
+]
+[
+.BI \-i fields
+]
+[
+.BI \-p filename
+]
+[
+.BI \-t n
+]
+.IR key \|.\|.\|.
+.SH DESCRIPTION
+.B \*glkbib
+searches bibliographic databases for references that contain the keys
+.IR key \|.\|.\|.
+and prints any references found on the standard output.
+.B \*glkbib
+will search any databases given by
+.B \-p
+options, and then a default database.
+The default database is taken from the
+.SB REFER
+environment variable if it is set,
+otherwise it is
+.BR /usr/dict/papers/Ind .
+For each database
+.I filename
+to be searched,
+if an index
+.IB filename .i
+created by
+.BR \*gindxbib (1)
+exists, then it will be searched instead;
+each index can cover multiple databases.
+.SH OPTIONS
+.TP
+.B \-v
+Print the version number.
+.TP
+.BI \-p filename
+Search
+.IR filename .
+Multiple
+.B \-p
+options can be used.
+.TP
+.BI \-i string
+When searching files for which no index exists,
+ignore the contents of fields whose names are in
+.IR string .
+.TP
+.BI \-t n
+Only require the first
+.I n
+characters of keys to be given.
+Initially
+.I n
+is 6.
+.SH ENVIRONMENT
+.TP \w'\fBREFER'u+2n
+.SB REFER
+Default database.
+.SH FILES
+.TP \w'\fB/usr/dict/papers/Ind'u+2n
+.B /usr/dict/papers/Ind
+Default database to be used if the
+.SB REFER
+environment variable is not set.
+.IB filename .i
+Index files.
+.SH "SEE ALSO"
+.BR \*grefer (1),
+.BR \*glookbib (1),
+.BR \*gindxbib (1)

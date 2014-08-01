@@ -1,0 +1,28 @@
+Msysline	sysline.c	/^main(argc, argv)$/
+clearbotl	sysline.c	/^clearbotl()$/
+erroutc	sysline.c	/^erroutc(c)$/
+getwinsize	sysline.c	/^getwinsize()$/
+initprocread	sysline.c	/^initprocread()$/
+initterm	sysline.c	/^initterm()$/
+isloggedin	sysline.c	/^isloggedin()$/
+mailseen	sysline.c	/^mailseen()$/
+outc	sysline.c	/^outc(c)$/
+prtinfo	sysline.c	/^prtinfo()$/
+readline	sysline.c	/^readline(fp, buf, n)$/
+readnamelist	sysline.c	/^readnamelist()$/
+readproctab	sysline.c	/^readproctab()$/
+readutmp	sysline.c	/^readutmp(nflag)$/
+sigexit	sysline.c	/^sigexit()$/
+sigwinch	sysline.c	/^sigwinch()$/
+strcpy1	sysline.c	/^strcpy1(p, q)$/
+stringcat	sysline.c	/^stringcat(str, n)$/
+stringdump	sysline.c	/^stringdump()$/
+stringinit	sysline.c	/^stringinit()$/
+stringprt	sysline.c	/^stringprt(fmt)$/
+stringspace	sysline.c	/^stringspace()$/
+sysrup	sysline.c	/^sysrup(hp)$/
+timeprint	sysline.c	/^timeprint()$/
+touch	sysline.c	/^touch(name)$/
+tparm	sysline.c	/^#define tparm(cap, parm) tgoto((cap), 0, (parm))$/
+ttyprint	sysline.c	/^ttyprint(name)$/
+whocheck	sysline.c	/^whocheck()$/

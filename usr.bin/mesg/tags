@@ -1,0 +1,3 @@
+Mmesg	mesg.c	/^main(argc, argv)$/
+err	mesg.c	/^err(fmt, va_alist)$/
+usage	mesg.c	/^usage()$/

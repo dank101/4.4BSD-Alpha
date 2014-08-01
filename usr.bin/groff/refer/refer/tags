@@ -1,0 +1,206 @@
+Mrefer.cc	refer.cc	/^int main(int argc, char **argv)$/
+abbreviate_command	command.cc	/^static void abbreviate_command(int argc, argument /
+abbreviate_label_ranges_command	command.cc	/^static void abbreviate_label_ranges_command(int ar/
+accumulate_command	command.cc	/^static void accumulate_command(int, argument *)$/
+add_file	../common_source/search.cc	/^void search_list::add_file(const char *filename, i/
+add_out_of_date_file	../common_source/index.cc	/^void index_search_item::add_out_of_date_file(int f/
+alternative	label.y	/^alternative:$/
+annotate_command	command.cc	/^static void annotate_command(int argc, argument *a/
+articles_command	command.cc	/^static void articles_command(int argc, argument *a/
+bibliography_command	command.cc	/^static void bibliography_command(int argc, argumen/
+bmpattern	../common_source/linear.cc	/^bmpattern::~bmpattern()$/
+bracket_label_command	command.cc	/^static void bracket_label_command(int, argument *a/
+bufend	../common_source/linear.cc	/^: buffer(0), bufend(0)$/
+buffer	../common_source/index.cc	/^  buffer(0)$/
+capitalize_command	command.cc	/^static void capitalize_command(int argc, argument /
+check_args	command.cc	/^static int check_args(const char *types, const cha/
+check_files	../common_source/index.cc	/^void index_search_item::check_files()$/
+check_match	../common_source/linear.cc	/^int linear_searcher::check_match(const char *buf, /
+clear_labels	label.y	/^void clear_labels()$/
+command_error	command.cc	/^void command_error(const char *format, const errar/
+command_loop	command.cc	/^static void command_loop()$/
+compatible_command	command.cc	/^static void compatible_command(int, argument *)$/
+compute_hash_code	ref.cc	/^void reference::compute_hash_code()$/
+compute_label	label.y	/^void reference::compute_label()$/
+compute_labels	label.y	/^void compute_labels(reference **v, int n)$/
+conditional	label.y	/^conditional:$/
+consider_authors	label.y	/^static void consider_authors(reference **start, re/
+database_command	command.cc	/^static void database_command(int argc, argument *a/
+date_as_label_command	command.cc	/^static void date_as_label_command(int argc, argume/
+default_database_command	command.cc	/^static void default_database_command(int, argument/
+delete_field	ref.cc	/^void reference::delete_field(unsigned char c)$/
+digits	label.y	/^digits:$/
+discard_command	command.cc	/^static void discard_command(int argc, argument *ar/
+divert_to_temporary_file	refer.cc	/^static void divert_to_temporary_file()$/
+do_bib	refer.cc	/^void do_bib(const char *filename)$/
+do_file	refer.cc	/^static void do_file(const char *filename)$/
+do_ref	refer.cc	/^static void do_ref(const string &str)$/
+do_verify	../common_source/index.cc	/^const char *index_search_item::do_verify()$/
+echo_command	command.cc	/^static void echo_command(int argc, argument *argv)/
+error	command.cc	/^void input_stack::error(const char *format, const /
+et_al_command	command.cc	/^static void et_al_command(int argc, argument *argv/
+evaluate	label.y	/^void at_expr::evaluate(int tentative, const refere/
+execute_command	command.cc	/^static void execute_command(const char *name, int /
+expr	label.y	/^expr:$/
+file_buffer	../common_source/linear.cc	/^file_buffer::~file_buffer()$/
+filename_id	../common_source/search.cc	/^: next(0), name(strsave(nm)), filename_id(fid)$/
+find_end	../common_source/linear.cc	/^static const char *find_end(const char *bufend, co/
+find_reference	refer.cc	/^static reference *find_reference(const char *query/
+first_lineno	command.cc	/^: filename(strsave(fn)), first_lineno(ln)$/
+first_part	label.y	/^static void first_part(int len, const char *ptr, c/
+flag	label.y	/^flag:$/
+for	command.cc	/^  for (;;) {$/
+format_serial	label.y	/^static const char *format_serial(char c, int n)$/
+fp	refer.cc	/^: state(NORMAL), count(0), rptr(p), rcount(n), fp(/
+get	label.y	/^int int_set::get(int i) const$/
+get_authors	label.y	/^const char *reference::get_authors(const char **en/
+get_char	command.cc	/^inline int input_item::get_char()$/
+get_end	../common_source/linear.cc	/^const char *file_buffer::get_end() const$/
+get_label	label.y	/^const string &reference::get_label(label_type type/
+get_location	command.cc	/^int input_item::get_location(const char **filename/
+get_nauthors	label.y	/^int reference::get_nauthors() const$/
+get_separator_pos	label.y	/^const substring_position &reference::get_separator/
+get_start	../common_source/linear.cc	/^const char *file_buffer::get_start() const$/
+get_tag	../common_source/index.cc	/^int index_search_item_iterator::get_tag(int tagno,/
+get_token	token.cc	/^int get_token(const char **ptr, const char *end)$/
+handle_pending	refer.cc	/^int label_processing_state::handle_pending(int c)$/
+hash	../common_source/common.cc	/^unsigned hash(const char *s, int len)$/
+hash_string	refer.cc	/^unsigned hash_string(const char *s, int len)$/
+if	command.cc	/^    else if (c != ' ' && c != '\\t')$/
+ignore_fields	../common_source/linear.cc	/^: keys(0), nkeys(0), truncate_len(trunc), ignore_f/
+immediate_compute_label	label.y	/^void reference::immediate_compute_label()$/
+immediately_handle_reference	refer.cc	/^unsigned immediately_handle_reference(const string/
+immediately_output_references	refer.cc	/^static void immediately_output_references()$/
+include_command	command.cc	/^static void include_command(int argc, argument *ar/
+index_search_item	../common_source/index.cc	/^index_search_item::~index_search_item()$/
+index_search_item_iterator	../common_source/index.cc	/^index_search_item_iterator::~index_search_item_ite/
+init	command.cc	/^void input_stack::init()$/
+init_ascii	token.cc	/^static void init_ascii()$/
+init_latin1	token.cc	/^static void init_latin1()$/
+init_letter	token.cc	/^static void init_letter(unsigned char uc_code, uns/
+init_special_chars	token.cc	/^static void init_special_chars()$/
+init_strings	token.cc	/^static void init_strings()$/
+init_two_char_letter	token.cc	/^static void init_two_char_letter(char l1, char l2,/
+input_item	command.cc	/^input_item::~input_item()$/
+insert_field	ref.cc	/^void reference::insert_field(unsigned char c, stri/
+is_list	refer.cc	/^static int is_list(const string &str)$/
+is_named	../common_source/search.cc	/^int search_item::is_named(const char *nm) const$/
+join_authors_command	command.cc	/^static void join_authors_command(int argc, argumen/
+label_command	command.cc	/^static void label_command(int, argument *argv)$/
+label_in_reference_command	command.cc	/^static void label_in_reference_command(int, argume/
+label_in_text_command	command.cc	/^static void label_in_text_command(int, argument *)/
+label_processing_state	refer.cc	/^label_processing_state::~label_processing_state()$/
+last_part	label.y	/^static void last_part(int len, const char *ptr, co/
+len	../common_source/linear.cc	/^: len(pattern_length)$/
+length	../common_source/linear.cc	/^inline int bmpattern::length() const$/
+linear_search_item	../common_source/linear.cc	/^linear_search_item::~linear_search_item()$/
+linear_search_item_iterator	../common_source/linear.cc	/^linear_search_item_iterator::~linear_search_item_i/
+linear_searcher	../common_source/linear.cc	/^linear_searcher::~linear_searcher()$/
+list	label.y	/^list:$/
+load	../common_source/linear.cc	/^int file_buffer::load(int fd, const char *filename/
+lookup_label	label.y	/^label_info *lookup_label(const string &label)$/
+lookup_token	token.cc	/^const token_info *lookup_token(const char *start, /
+lower_case	token.cc	/^void token_info::lower_case(const char *start, con/
+make_index_search_item	../common_source/index.cc	/^search_item *make_index_search_item(const char *fi/
+make_linear_search_item	../common_source/linear.cc	/^search_item *make_linear_search_item(int fd, const/
+make_reference	refer.cc	/^static reference *make_reference(const string &str/
+make_search_item_iterator	../common_source/linear.cc	/^search_item_iterator *linear_search_item::make_sea/
+map_init	../common_source/linear.cc	/^map_init::map_init()$/
+merge	ref.cc	/^void reference::merge(reference &ref)$/
+merge_labels	label.y	/^int reference::merge_labels(reference **v, int n, /
+merge_labels_by_number	label.y	/^int reference::merge_labels_by_number(reference **/
+merge_labels_by_parts	label.y	/^int reference::merge_labels_by_parts(reference **v/
+move_punctuation_command	command.cc	/^static void move_punctuation_command(int, argument/
+munge_filename	../common_source/index.cc	/^const char *index_search_item::munge_filename(cons/
+nauthors	ref.cc	/^  computed_authors(0), last_needed_author(-1), nau/
+need_author	label.y	/^void reference::need_author(int n)$/
+next	../common_source/search.cc	/^int search_list_iterator::next(const char **pp, in/
+next_fid	../common_source/search.cc	/^: list(0), niterators(0), next_fid(1)$/
+next_filename_id	../common_source/search.cc	/^int search_item::next_filename_id() const$/
+next_out_of_date_file	../common_source/index.cc	/^  out_of_date_files_iter(0), next_out_of_date_file/
+next_size	refer.cc	/^int next_size(int n)$/
+nfiles	../common_source/search.cc	/^int search_list::nfiles() const$/
+no_abbreviate_command	command.cc	/^static void no_abbreviate_command(int, argument *)/
+no_abbreviate_label_ranges_command	command.cc	/^static void no_abbreviate_label_ranges_command(int/
+no_accumulate_command	command.cc	/^static void no_accumulate_command(int, argument *)/
+no_annotate_command	command.cc	/^static void no_annotate_command(int, argument *)$/
+no_compatible_command	command.cc	/^static void no_compatible_command(int, argument *)/
+no_date_as_label_command	command.cc	/^static void no_date_as_label_command(int, argument/
+no_default_database_command	command.cc	/^static void no_default_database_command(int, argum/
+no_discard_command	command.cc	/^static void no_discard_command(int, argument *)$/
+no_et_al_command	command.cc	/^static void no_et_al_command(int, argument *)$/
+no_label_in_reference_command	command.cc	/^static void no_label_in_reference_command(int, arg/
+no_label_in_text_command	command.cc	/^static void no_label_in_text_command(int, argument/
+no_move_punctuation_command	command.cc	/^static void no_move_punctuation_command(int, argum/
+no_reverse_command	command.cc	/^static void no_reverse_command(int, argument *)$/
+no_search_ignore_command	command.cc	/^static void no_search_ignore_command(int, argument/
+no_search_truncate_command	command.cc	/^static void no_search_truncate_command(int, argume/
+no_short_label_command	command.cc	/^static void no_short_label_command(int, argument */
+no_sort_adjacent_labels_command	command.cc	/^static void no_sort_adjacent_labels_command(int, a/
+no_sort_command	command.cc	/^static void no_sort_command(int, argument *)$/
+number	label.y	/^number:$/
+optional_conditional	label.y	/^optional_conditional:$/
+optional_number	label.y	/^optional_number:$/
+other_case	token.cc	/^: type(OTHER), sort_key(0), other_case(0)$/
+output_citation_group	refer.cc	/^static void output_citation_group(reference **v, i/
+output_pending_line	refer.cc	/^static void output_pending_line()$/
+output_references	refer.cc	/^void output_references()$/
+peek_char	command.cc	/^inline int input_item::peek_char()$/
+pos	../common_source/linear.cc	/^: lsi(p), pos(0)$/
+possibly_load_default_database	refer.cc	/^static void possibly_load_default_database()$/
+pre_compute_label	label.y	/^void reference::pre_compute_label()$/
+process	refer.cc	/^void label_processing_state::process(int c)$/
+process_commands	command.cc	/^void process_commands(const char *file)$/
+push_file	command.cc	/^void input_stack::push_file(const char *fn)$/
+push_string	command.cc	/^void input_stack::push_string(string &s, const cha/
+read_common_words_file	../common_source/index.cc	/^void index_search_item::read_common_words_file()$/
+reference	ref.cc	/^reference::~reference()$/
+reverse_command	command.cc	/^static void reverse_command(int, argument *argv)$/
+same_author_last_name	label.y	/^int same_author_last_name(const reference &r1, con/
+same_author_name	label.y	/^int same_author_name(const reference &r1, const re/
+search	../common_source/linear.cc	/^const char *bmpattern::search(const char *buf, con/
+search1	../common_source/index.cc	/^const int *index_search_item::search1(const char */
+search_and_check	../common_source/linear.cc	/^const char *linear_searcher::search_and_check(cons/
+search_ignore_command	command.cc	/^static void search_ignore_command(int argc, argume/
+search_item	../common_source/search.cc	/^search_item::~search_item()$/
+search_item_iterator	../common_source/search.cc	/^search_item_iterator::~search_item_iterator()$/
+search_list	../common_source/search.cc	/^search_list::~search_list()$/
+search_list_iterator	../common_source/search.cc	/^search_list_iterator::~search_list_iterator()$/
+search_truncate_command	command.cc	/^static void search_truncate_command(int argc, argu/
+separate_label_second_parts_command	command.cc	/^static void separate_label_second_parts_command(in/
+set	token.cc	/^void token_info::set(token_type t, const char *sk,/
+set_date_label_spec	label.y	/^int set_date_label_spec(const char *label_spec)$/
+set_label_spec	label.y	/^int set_label_spec(const char *label_spec)$/
+set_last_name_unambiguous	label.y	/^void reference::set_last_name_unambiguous(int i)$/
+set_number	ref.cc	/^void reference::set_number(int n)$/
+set_short_label_spec	label.y	/^int set_short_label_spec(const char *label_spec)$/
+short_label_command	command.cc	/^static void short_label_command(int, argument *arg/
+skip_char	command.cc	/^inline void input_item::skip_char()$/
+skip_field	../common_source/linear.cc	/^static const char *skip_field(const char *end, con/
+skip_name	token.cc	/^static void skip_name(const char **ptr, const char/
+sort_adjacent_labels_command	command.cc	/^static void sort_adjacent_labels_command(int, argu/
+sort_command	command.cc	/^static void sort_command(int argc, argument *argv)/
+sortify	token.cc	/^void token_info::sortify(const char *start, const /
+sortify_date	ref.cc	/^void sortify_date(const char *s, int len, string &/
+sortify_name	ref.cc	/^void sortify_name(const char *s, int len, string &/
+sortify_non_empty	token.cc	/^int token_info::sortify_non_empty(const char *star/
+sortify_other	ref.cc	/^void sortify_other(const char *s, int len, string /
+sortify_title	ref.cc	/^void sortify_title(const char *s, int len, string /
+sortify_word	ref.cc	/^void sortify_word(const char *s, const char *end, /
+sortify_words	ref.cc	/^void sortify_words(const char *s, const char *end,/
+split_punct	refer.cc	/^static void split_punct(string &line, string &punc/
+store_citation	refer.cc	/^static void store_citation(reference *ref)$/
+store_letter	token.cc	/^static void store_letter(const char *lower, const /
+store_reference	refer.cc	/^static unsigned store_reference(const string &str)/
+store_token	token.cc	/^static void store_token(const char *tok, token_typ/
+string	label.y	/^string:$/
+substitute	label.y	/^substitute:$/
+tok	token.cc	/^: tok(0)$/
+token_initer	token.cc	/^token_initer::token_initer()$/
+trim_blanks	refer.cc	/^static void trim_blanks(string &str)$/
+upper_case	token.cc	/^void token_info::upper_case(const char *start, con/
+usage	refer.cc	/^static void usage()$/
+verify	../common_source/index.cc	/^int index_search_item::verify()$/
+yyerror	label.y	/^void yyerror(const char *message)$/
+yylex	label.y	/^int yylex()$/
+yyparse	label.y	/^%%$/

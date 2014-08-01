@@ -1,0 +1,210 @@
+BUFPUSH	regex.c	/^#define BUFPUSH(ch)							\\$/
+CALLOC	dfa.c	/^#define CALLOC(p, t, n) ((p) = (t *) xcalloc((n), /
+Ceil	builtin.c	/^#define Ceil(n) ceil((n) * (1.0 + DBL_EPSILON))$/
+DOUBLE_STACK	regex.c	/^#define DOUBLE_STACK(stackx,stackb,len) \\$/
+EXTRACT_NUMBER	regex.c	/^#define EXTRACT_NUMBER(destination, source)				\\$/
+EXTRACT_NUMBER_AND_INCR	regex.c	/^#define EXTRACT_NUMBER_AND_INCR(destination, sourc/
+FETCH	dfa.c	/^#define FETCH(c, eoferr)   	      \\$/
+FREE_AND_RETURN	regex.c	/^#define FREE_AND_RETURN(stackb,val)	return(val)$/
+FREE_AND_RETURN_VOID	regex.c	/^#define FREE_AND_RETURN_VOID(stackb)	return$/
+Floor	builtin.c	/^#define Floor(n) floor((n) * (1.0 + DBL_EPSILON))$/
+GET_BUFFER_SPACE	regex.c	/^#define GET_BUFFER_SPACE(n)						\\$/
+GET_UNSIGNED_NUMBER	regex.c	/^#define GET_UNSIGNED_NUMBER(num) 					\\$/
+IS_ACTIVE	regex.c	/^#define IS_ACTIVE(R)  ((R).is_active)$/
+IS_A_LETTER	regex.c	/^#define IS_A_LETTER(d)							\\$/
+IS_IN_FIRST_STRING	regex.c	/^#define IS_IN_FIRST_STRING(ptr) 					\\$/
+MALLOC	dfa.c	/^#define MALLOC(p, t, n) ((p) = (t *) xmalloc((n) */
+MATCHED_SOMETHING	regex.c	/^#define MATCHED_SOMETHING(R)  ((R).matched_somethi/
+Miop	iop.c	/^main(argc, argv)$/
+Mmain	main.c	/^main(argc, argv)$/
+Mregex	regex.c	/^main ()$/
+PATFETCH	regex.c	/^#define PATFETCH(c)							\\$/
+PATFETCH_RAW	regex.c	/^#define PATFETCH_RAW(c)							\\$/
+POP_FAILURE_POINT	regex.c	/^#define POP_FAILURE_POINT()						\\$/
+PUSH_BINDING	eval.c	/^#define PUSH_BINDING(stack, x, val) (memcpy ((char/
+PUSH_FAILURE_POINT	regex.c	/^#define PUSH_FAILURE_POINT(pattern_place, string_p/
+REALLOC	dfa.c	/^#define REALLOC(p, t, n) ((p) = (t *) xrealloc((pt/
+REALLOC_IF_NECESSARY	dfa.c	/^#define REALLOC_IF_NECESSARY(p, t, nalloc, index) /
+RESTORE_BINDING	eval.c	/^#define RESTORE_BINDING(stack, x, val) (memcpy ((c/
+SET_LIST_BIT	regex.c	/^#define SET_LIST_BIT(c)  (b[(c) \/ BYTEWIDTH] |= 1/
+SIGN_EXTEND_CHAR	regex.c	/^#define SIGN_EXTEND_CHAR(c) ((c)>(char)127?(c)-256/
+STORE_NUMBER	regex.c	/^#define STORE_NUMBER(destination, number)				\\$/
+STORE_NUMBER_AND_INCR	regex.c	/^#define STORE_NUMBER_AND_INCR(destination, number)/
+SYNTAX	regex.c	/^#define SYNTAX(c) re_syntax_table[c]$/
+addlists	dfa.c	/^addlists(old, new)$/
+addtok	dfa.c	/^addtok(t)$/
+arg_assign	main.c	/^arg_assign(arg)$/
+assoc_clear	array.c	/^assoc_clear(symbol)$/
+assoc_find	array.c	/^assoc_find(symbol, subs, hash1)$/
+assoc_lookup	array.c	/^assoc_lookup(symbol, subs)$/
+assoc_next	array.c	/^assoc_next(lookat)$/
+assoc_scan	array.c	/^assoc_scan(symbol, lookat)$/
+atom	dfa.c	/^atom()$/
+basename	main.c	/^basename(filespec)$/
+bchunk	builtin.c	/^#define bchunk(s,l) if(l) {\\$/
+branch	dfa.c	/^branch()$/
+build_state	dfa.c	/^build_state(s, r)$/
+build_state_zero	dfa.c	/^build_state_zero(r)$/
+catchsig	main.c	/^catchsig(sig, code)$/
+charset_index	dfa.c	/^charset_index(s)$/
+checkopen	io.c	/^checkopen(file, flag, mode)$/
+chksize	builtin.c	/^#define chksize(l)  if((l)>ofre) {\\$/
+close_io	io.c	/^close_io ()$/
+close_one	io.c	/^close_one()$/
+close_redir	io.c	/^close_redir(rp)$/
+closure	dfa.c	/^closure()$/
+clrbit	dfa.c	/^clrbit(b, c)$/
+cmdline_fs	main.c	/^cmdline_fs(str)$/
+cmp_nodes	eval.c	/^cmp_nodes(t1, t2)$/
+comsubs	dfa.c	/^comsubs(left, right)$/
+concat_exp	array.c	/^concat_exp(tree)$/
+copy	dfa.c	/^copy(src, dst)$/
+copyleft	main.c	/^copyleft ()$/
+copyset	dfa.c	/^copyset(src, dst)$/
+def_parse_field	field.c	/^def_parse_field(up_to, buf, len, fs, rp, set, n)$/
+delete	dfa.c	/^delete(p, s)$/
+devopen	io.c	/^devopen (name, mode)$/
+do_close	io.c	/^do_close(tree)$/
+do_delete	array.c	/^do_delete(symbol, tree)$/
+do_exp	builtin.c	/^do_exp(tree)$/
+do_getline	io.c	/^do_getline(tree)$/
+do_index	builtin.c	/^do_index(tree)$/
+do_input	io.c	/^do_input()$/
+do_int	builtin.c	/^do_int(tree)$/
+do_length	builtin.c	/^do_length(tree)$/
+do_log	builtin.c	/^do_log(tree)$/
+do_nextfile	io.c	/^do_nextfile()$/
+do_pathopen	io.c	/^do_pathopen (file)$/
+do_print	builtin.c	/^do_print(tree)$/
+do_printf	builtin.c	/^do_printf(tree)$/
+do_split	field.c	/^do_split(tree)$/
+do_sprintf	builtin.c	/^do_sprintf(tree)$/
+do_sqrt	builtin.c	/^do_sqrt(tree)$/
+do_strftime	builtin.c	/^do_strftime(tree)$/
+do_substr	builtin.c	/^do_substr(tree)$/
+do_system	builtin.c	/^do_system(tree)$/
+do_systime	builtin.c	/^do_systime(tree)$/
+dupnode	node.c	/^dupnode(n)$/
+enlist	dfa.c	/^enlist(cpp, new, len)$/
+epsclosure	dfa.c	/^epsclosure(s, r)$/
+equal	dfa.c	/^equal(s1, s2)$/
+err	msg.c	/^err(s, msg, argp)$/
+error	regex.c	/^error (string)$/
+eval_condition	eval.c	/^eval_condition(tree)$/
+exp	builtin.c	/^#define exp(x) (*Exp)(x)$/
+fatal	msg.c	/^fatal(va_alist)$/
+flush_io	io.c	/^flush_io ()$/
+fmt_index	eval.c	/^fmt_index(n)$/
+fmt_ok	eval.c	/^fmt_ok(n)$/
+freelist	dfa.c	/^freelist(cpp)$/
+freenode	node.c	/^freenode(it)$/
+func_call	eval.c	/^func_call(name, arg_list)$/
+fw_parse_field	field.c	/^fw_parse_field(up_to, buf, len, fs, rp, set, n)$/
+gawk_option	main.c	/^gawk_option(optstr)$/
+gawk_pclose	io.c	/^gawk_pclose(rp)$/
+gawk_popen	io.c	/^gawk_popen(cmd, rp)$/
+get_a_record	iop.c	/^get_a_record(out, iop, RS)$/
+get_field	field.c	/^get_field(requested, assign)$/
+get_lhs	eval.c	/^get_lhs(ptr, assign)$/
+grow_fields_arr	field.c	/^grow_fields_arr(num)$/
+hash	array.c	/^hash(s, len)$/
+icatalloc	dfa.c	/^icatalloc(old, new)$/
+icpyalloc	dfa.c	/^icpyalloc(string)$/
+ifree	dfa.c	/^ifree(cp)$/
+in_array	array.c	/^in_array(symbol, subs)$/
+inboth	dfa.c	/^inboth(left, right)$/
+init_args	main.c	/^init_args(argc0, argc, argv0, argv)$/
+init_syntax_once	regex.c	/^init_syntax_once ()$/
+init_vars	main.c	/^init_vars()$/
+inrec	io.c	/^inrec(iop)$/
+insert	dfa.c	/^insert(p, s)$/
+int	field.c	/^static int (*parse_field) P((int, char **, int, ch/
+interpret	eval.c	/^interpret(tree)$/
+iop_alloc	iop.c	/^iop_alloc(fd)$/
+iop_close	io.c	/^iop_close(iop)$/
+isgraph	regex.c	/^#define isgraph(c) (isprint((c)) && !isspace((c)))/
+istrstr	dfa.c	/^istrstr(lookin, lookfor)$/
+lex	dfa.c	/^lex()$/
+load_environ	main.c	/^load_environ()$/
+log	builtin.c	/^#define log(x) (*Log)(x)$/
+make_regexp	re.c	/^make_regexp(s, ignorecase, dfa)$/
+make_str_node	node.c	/^make_str_node(s, len, flags)$/
+match_op	eval.c	/^match_op(tree)$/
+memcmp_translate	regex.c	/^memcmp_translate (s1, s2, len, translate)$/
+merge	dfa.c	/^merge(s1, s2, m)$/
+mk_number	node.c	/^mk_number(x, flags)$/
+mk_re_parse	main.c	/^mk_re_parse(s, ignorecase)$/
+more_nodes	node.c	/^more_nodes()$/
+msg	msg.c	/^msg(va_alist)$/
+nextfile	io.c	/^nextfile(skipping)$/
+nostalgia	main.c	/^nostalgia()$/
+notset	dfa.c	/^notset(s)$/
+op_assign	eval.c	/^op_assign(tree)$/
+optimal_bufsize	iop.c	/^optimal_bufsize(fd)$/
+parse_escape	node.c	/^parse_escape(string_ptr)$/
+parse_next_arg	builtin.c	/^#define parse_next_arg() {\\$/
+pathopen	io.c	/^pathopen (file)$/
+pre_assign	main.c	/^pre_assign(v)$/
+print_buf	regex.c	/^print_buf (bufp)$/
+printchar	regex.c	/^printchar (c)$/
+r_force_number	node.c	/^r_force_number(n)$/
+r_force_string	node.c	/^r_force_string(s)$/
+r_tree_eval	eval.c	/^r_tree_eval(tree)$/
+re_comp	regex.c	/^re_comp (s)$/
+re_compile_fastmap	regex.c	/^re_compile_fastmap (bufp)$/
+re_compile_pattern	regex.c	/^re_compile_pattern (pattern, size, bufp)$/
+re_exec	regex.c	/^re_exec (s)$/
+re_match	regex.c	/^re_match (pbufp, string, size, pos, regs)$/
+re_match_2	regex.c	/^re_match_2 (pbufp, string1_arg, size1, string2_arg/
+re_parse_field	field.c	/^re_parse_field(up_to, buf, len, fs, rp, set, n)$/
+re_search	regex.c	/^re_search (pbufp, string, size, startpos, range, r/
+re_search_2	regex.c	/^re_search_2 (pbufp, string1, size1, string2, size2/
+re_set_syntax	regex.c	/^re_set_syntax (syntax)$/
+re_update	re.c	/^re_update(t)$/
+rebuild_record	field.c	/^rebuild_record()$/
+redirect	io.c	/^redirect(tree, errflg)$/
+refree	re.c	/^refree(rp)$/
+reganalyze	dfa.c	/^reganalyze(r, searchflag)$/
+regcompile	dfa.c	/^regcompile(s, len, r, searchflag)$/
+regerror	re.c	/^regerror(s)$/
+regexecute	dfa.c	/^regexecute(r, begin, end, newline, count, backref)/
+regexp	dfa.c	/^regexp()$/
+regfree	dfa.c	/^regfree(r)$/
+reginit	dfa.c	/^reginit(r)$/
+regmust	dfa.c	/^regmust(r)$/
+regparse	dfa.c	/^regparse(s, len, r)$/
+regstate	dfa.c	/^regstate(s, r, trans)$/
+regsyntax	dfa.c	/^regsyntax(bits, fold)$/
+research	re.c	/^research(rp, str, len, need_start)$/
+reset_record	field.c	/^reset_record()$/
+resetmust	dfa.c	/^resetmust(mp)$/
+resetup	re.c	/^resetup()$/
+sc_parse_field	field.c	/^sc_parse_field(up_to, buf, len, fs, rp, set, n)$/
+set_CONVFMT	eval.c	/^set_CONVFMT()$/
+set_FIELDWIDTHS	field.c	/^set_FIELDWIDTHS()$/
+set_FNR	io.c	/^set_FNR()$/
+set_FS	field.c	/^set_FS()$/
+set_IGNORECASE	eval.c	/^set_IGNORECASE()$/
+set_NF	field.c	/^set_NF()$/
+set_NR	io.c	/^set_NR()$/
+set_OFMT	eval.c	/^set_OFMT()$/
+set_OFS	eval.c	/^set_OFS()$/
+set_ORS	eval.c	/^set_ORS()$/
+set_RS	field.c	/^set_RS()$/
+set_element	field.c	/^set_element(num, s, len, n)$/
+set_field	field.c	/^set_field(num, str, len, dummy)$/
+set_record	field.c	/^set_record(buf, cnt, freeold)$/
+setbit	dfa.c	/^setbit(b, c)$/
+state_index	dfa.c	/^state_index(r, s, newline, letter)$/
+store_jump	regex.c	/^store_jump (from, opcode, to)$/
+store_jump_n	regex.c	/^store_jump_n (from, opcode, to, n)$/
+tmp_string	node.c	/^tmp_string(s, len)$/
+tstbit	dfa.c	/^tstbit(b, c)$/
+unref	node.c	/^unref(tmp)$/
+usage	main.c	/^usage()$/
+wait_any	io.c	/^wait_any(interesting)$/
+warning	msg.c	/^warning(va_alist)$/
+xcalloc	dfa.c	/^xcalloc(n, s)$/
+xmalloc	dfa.c	/^xmalloc(n)$/
+xrealloc	dfa.c	/^xrealloc(p, n)$/
+zeroset	dfa.c	/^zeroset(s)$/

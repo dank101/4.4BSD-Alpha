@@ -1,0 +1,6 @@
+./"forw"16t"back"n2X
++/"daddr"n12X
++/"ptdaddr"16t"size"16t"caddr"16t"vptr"n4X
++/"rssize"8t"swrss"8t"count"8t"ccount"n2x2d
++/"flag"8t"slptim"8t"poip"n2bxn
++,<9-1$<text

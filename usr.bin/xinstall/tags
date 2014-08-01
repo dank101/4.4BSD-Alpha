@@ -1,0 +1,6 @@
+Mxinstall	xinstall.c	/^main(argc, argv)$/
+copy	xinstall.c	/^copy(from_fd, from_name, to_fd, to_name, size)$/
+err	xinstall.c	/^err(fmt, va_alist)$/
+install	xinstall.c	/^install(from_name, to_name, isdir)$/
+strip	xinstall.c	/^strip(to_name)$/
+usage	xinstall.c	/^usage()$/

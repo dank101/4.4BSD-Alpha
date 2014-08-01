@@ -1,0 +1,8 @@
+KREAD	kgmon.c	/^#define KREAD(kd, addr, s)\\$/
+Mkgmon	kgmon.c	/^main(int argc, char **argv)$/
+dumpbuf	kgmon.c	/^dumpbuf(FILE *fp, u_long addr, int cc)$/
+dumphdr	kgmon.c	/^dumphdr(FILE *fp, struct gmonparam *p, int ksize)$/
+dumpstate	kgmon.c	/^dumpstate(struct gmonparam *p)$/
+kzero	kgmon.c	/^kzero(u_long addr, int cc)$/
+reset	kgmon.c	/^reset(struct gmonparam *p)$/
+setprof	kgmon.c	/^setprof(int state)$/

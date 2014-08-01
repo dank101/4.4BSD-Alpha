@@ -1,0 +1,19 @@
+Minit	init.c	/^main(argc, argv)$/
+SCMPN	init.c	/^#define SCMPN(a, b)	strncmp(a, b, sizeof(a))$/
+SCPYN	init.c	/^#define SCPYN(a, b)	strncpy(a, b, sizeof(a))$/
+cleanutmp	init.c	/^cleanutmp(p)$/
+dfork	init.c	/^dfork(p)$/
+execit	init.c	/^execit(s, arg)$/
+idle	init.c	/^idle()$/
+idlehup	init.c	/^idlehup()$/
+merge	init.c	/^merge()$/
+multiple	init.c	/^multiple()$/
+reset	init.c	/^reset()$/
+runcom	init.c	/^runcom(oldhowto)$/
+shutdown	init.c	/^shutdown()$/
+shutend	init.c	/^shutend()$/
+shutreset	init.c	/^shutreset()$/
+single	init.c	/^single()$/
+term	init.c	/^term(p)$/
+wstart	init.c	/^wstart(p)$/
+wterm	init.c	/^wterm(p)$/

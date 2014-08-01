@@ -1,0 +1,3 @@
+Mdbconv	dbconv.c	/^main(argc, argv)$/
+error	dbconv.c	/^error(p)$/
+usage	dbconv.c	/^usage()$/

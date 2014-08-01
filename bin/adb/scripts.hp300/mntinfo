@@ -1,0 +1,6 @@
+./"addr"n
+.$<<sockaddr_in
++/"rootvp"16t"flags"8t"refcnt"nXxD
++/"tsize"16t"stsize"16t"bsize"n3D
++/"mntno"16t"timeo"16t"retrans"n3D
++/"hostname"n32C

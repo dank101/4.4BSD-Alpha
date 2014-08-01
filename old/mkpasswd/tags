@@ -1,0 +1,5 @@
+COMPACT	mkpasswd.c	/^#define	COMPACT(e)	t = e; while (*p++ = *t++);$/
+Mmkpasswd	mkpasswd.c	/^main(argc, argv)$/
+rmall	mkpasswd.c	/^rmall(fname)$/
+scanpw	mkpasswd.c	/^scanpw()$/
+usage	mkpasswd.c	/^usage()$/

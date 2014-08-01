@@ -1,0 +1,20 @@
+Mfmod	common_source/fmod.c	/^main()$/
+asym	common_source/lgamma.c	/^asym(arg)$/
+asympt	common_source/j0.c	/^asympt(arg) double arg;{$/
+atan2	mc68881/atan2.c	/^double atan2(y,x)$/
+cabs	ieee/cabs.c	/^cabs(z)$/
+cbrt	ieee/cbrt.c	/^double cbrt(x) $/
+doit	common_source/fmod.c	/^doit(x,y)$/
+erf	common_source/erf.c	/^erf(arg) double arg;{$/
+erfc	common_source/erf.c	/^erfc(arg) double arg;{$/
+hypot	ieee/cabs.c	/^double hypot(x,y)$/
+j0	common_source/j0.c	/^j0(arg) double arg;{$/
+j1	common_source/j1.c	/^j1(arg) double arg;{$/
+lgamma	common_source/lgamma.c	/^lgamma(arg)$/
+neg	common_source/lgamma.c	/^neg(arg)$/
+pos	common_source/lgamma.c	/^pos(arg)$/
+pow_p	common_source/pow.c	/^static double pow_p(x,y)       $/
+vc	common_source/acosh.c	/^vc(ln2hi, 6.9314718055829871446E-1  ,7217,4031,000/
+y0	common_source/j0.c	/^y0(arg) double arg;{$/
+y1	common_source/j1.c	/^y1(arg) double arg;{$/
+z_abs	ieee/cabs.c	/^z_abs(z)$/
